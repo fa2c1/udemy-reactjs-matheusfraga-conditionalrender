@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Feed from './components/feed';
+import Feed from './components/Feed'
 
 class App extends Component{
 

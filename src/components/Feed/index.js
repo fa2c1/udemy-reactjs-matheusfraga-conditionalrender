@@ -5,8 +5,10 @@ class Feed extends Component(){
         return(
             <div key={this.props.id}>
                 <h3>{this.props.username}</h3>
-                <p>{this.props.curtidas > 1 ? this.props.curtidas + ' curtidas' : ' curtida'} | {this.props.comentarios > 1 ? this.props.comentarios + ' comentarios' : ''}
-                </p>
+                <a href='none'>
+                    {this.props.curtidas > 1 ? this.props.curtidas + ' curtidas' : ' curtida'} | 
+                    {this.props.comentarios > 1 ? this.props.comentarios + ' comentarios' : ''}
+                </a>
                 <hr/>
             </div>
         );
